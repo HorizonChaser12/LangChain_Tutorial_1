@@ -6,7 +6,6 @@ from langchain import hub
 from langchain.agents import AgentExecutor
 from langchain.agents.react.agent import create_react_agent
 from langchain_core.runnables import RunnableLambda
-from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 import json
